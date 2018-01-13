@@ -3,6 +3,7 @@ package com.coolweather.android.db;
 import org.litepal.crud.DataSupport;
 
 /**
+ * 区县类
  * Created by xjf on 2018/1/11.
  */
 

@@ -3,6 +3,7 @@ package com.coolweather.android.db;
 import org.litepal.crud.DataSupport;
 
 /**
+ * 城市类
  * Created by xjf on 2018/1/11.
  */
 
@@ -17,7 +18,7 @@ public class City extends DataSupport{
     private int cityCode;
 
     //所属省份id
-    private int provinceid;
+    private int provinceId;
 
     public int getId() {
         return id;
@@ -43,11 +44,11 @@ public class City extends DataSupport{
         this.cityCode = cityCode;
     }
 
-    public int getProvinceid() {
-        return provinceid;
+    public int getProvinceId() {
+        return provinceId;
     }
 
-    public void setProvinceid(int provinceid) {
-        this.provinceid = provinceid;
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
     }
 }
